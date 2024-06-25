@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgb(248, 15, 248),rgb(17, 116, 247));
+    animation: about;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+
+@keyframes about
+{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.bottom
+{
+    padding: 80px;
+    padding-right: 150px;
+    margin-top: 100px;
+    background-color: rgb(0, 122, 47);
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.bottom .con
+{
+    margin-left: 680px;
+    margin-top: -60px;
+}
+
+
+.ico
+{
+    font-size: 40px;
+    margin-top: -60px;
+    margin-left: 10px;
+    letter-spacing: 40px;
+}
+
+
+.bottom:hover
+{
+    color: rgb(228, 14, 103);
+}
+
+
+.course
+{
+    width: 400px;
+    height: 250px;
+    margin-top: 60px;
+    padding: 4px;
+    background-color: tan;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+
+h1
+{
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 600;
+    color: rgb(0, 122, 47);
+}
+
+
+p
+{
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+
+.staff
+{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(106, 245, 14);
+    padding: 4px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+
+.middle p
+{
+    color: rgb(9, 247, 136);
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: -150px;
+    margin-left: 280px;
+}
+
+
+h2
+{
+    margin-top: 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(228, 14, 103);
+}
+
+
+a
+{
+    margin-top: 100px;
+    text-decoration: none;
+    border: 4px solid rgb(228, 14, 103);
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: rgb(228, 14, 103);
+    font-weight: 600;
+    color: rgb(17, 116, 247);
+}
+
+
+a:hover
+{
+    background-color: rgb(17, 116, 247);
+    color: rgb(228, 14, 103);
+    transform: scale(1.1);
+    transition: 0.8s;
+}
